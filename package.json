@@ -1,0 +1,22 @@
+{
+  "name": "newbootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel ./src/confirmed.html",
+    "prebuild": "npx rimraf build",
+    "build": "parcel build --public-url ./ ./src/confirm.html --out-dir build --no-minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.0.1"
+  },
+  "devDependencies": {
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.24",
+    "sass": "^1.62.1"
+  }
+}

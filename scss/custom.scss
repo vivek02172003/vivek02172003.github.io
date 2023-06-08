@@ -1,0 +1,126 @@
+$body-bg: rgb(151, 151, 151);
+$primary: rgb(202,189,165);
+$secondary: rgba(112, 112, 112, 0);
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.custombg {
+    background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../images/barbershop.jpg');
+    background-size: cover;
+    
+    //background-repeat: no-repeat;
+    
+}
+
+.navbar {
+    padding: 0;
+  }
+.navbar-logo {
+    width: 150px; 
+    height: auto;
+}
+
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav .nav-item {
+    text-align: center;
+    flex: 1;
+}
+
+.section-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.section {
+    flex: 0 0 25%;
+    text-align: center;
+    justify-content: center;
+    padding: 50px 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 80px;
+}
+.service{
+    text-align: center;
+    justify-content: center;
+    flex: 0 0 25%;
+}
+
+.section.section {
+    text-align: center;
+    justify-content: center;
+}
+.location{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} 
+.location1{
+    flex: 1;
+    text-align: left;
+    justify-content: center;
+} 
+
+.contact{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} 
+.contact1{
+    flex: 1;
+    text-align: left;
+    justify-content: center;
+} 
+
+.social{
+    display: flex;
+    float:right;
+    text-align: right;
+    justify-content: right;
+    width: 50%;
+} 
+.social1{
+    flex: 1;
+    float:right;
+    text-align: right;
+    justify-content: right;
+    width: 50%;
+    padding-top: 10%;
+} 
+.section-image {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+}
+  
+.section-text {
+    font-size: 18px;
+}
+
+.containercontact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.box {
+    padding: 10px;
+}
+
+.lastButton{
+    text-align: left;
+    justify-content: center;
+}
