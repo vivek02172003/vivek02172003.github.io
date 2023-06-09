@@ -10,7 +10,7 @@ window.addEventListener('load', () =>{
     if (barber == "MATIAS PEREIRA"){
         test= 'barber2.23340dd5.png'
     } else if (barber == "SIDD DULAL"){ 
-        test = 'barber1.38a3f28a.png'
+        test = '../images/barber1.png'
     } else if(barber == "SID SUBRA"){
         test ='barber3.d9d4c6ef.png'
     } else if (barber =="ABTIN NEGINI"){
