@@ -7,14 +7,14 @@ window.addEventListener('load', () =>{
     const barber = params.get("testselectname");
     const service = params.get("testselectservice");
     var test ="";
-    if (barber == "MATIAS PEREIRA"){
-        test= 'barber2.23340dd5.png'
-    } else if (barber == "SIDD DULAL"){ 
-        test = '../images/barber1.png'
-    } else if(barber == "SID SUBRA"){
-        test ='barber3.d9d4c6ef.png'
-    } else if (barber =="ABTIN NEGINI"){
-        test = 'barber4.d7a28c4b.png'
+    if (barber == "MATIAS PEREIRA") {
+        test = 'barber2.bd0f97b4.png';
+    } else if (barber == "SIDD DULAL") {
+        test = 'barber1.9b283311.png';
+    } else if (barber == "SID SUBRA") {
+        test = 'barber3.7a58b8e6.png';
+    } else if (barber == "ABTIN NEGINI") {
+        test = 'barber4.258de493.png';
     }
     const dateArray=calendar.split('T')
     const date = new Date(dateArray[0]);

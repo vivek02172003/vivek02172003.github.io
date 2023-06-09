@@ -127,13 +127,13 @@ window.addEventListener('load', function () {
   var service = params.get("testselectservice");
   var test = "";
   if (barber == "MATIAS PEREIRA") {
-    test = 'barber2.23340dd5.png';
+    test = 'barber2.bd0f97b4.png';
   } else if (barber == "SIDD DULAL") {
-    test = '../images/barber1.png';
+    test = 'barber1.9b283311.png';
   } else if (barber == "SID SUBRA") {
-    test = 'barber3.d9d4c6ef.png';
+    test = 'barber3.7a58b8e6.png';
   } else if (barber == "ABTIN NEGINI") {
-    test = 'barber4.d7a28c4b.png';
+    test = 'barber4.258de493.png';
   }
   var dateArray = calendar.split('T');
   var date = new Date(dateArray[0]);
@@ -150,4 +150,4 @@ window.addEventListener('load', function () {
   window.localStorage.setItem("barbertest", test);
 });
 },{}]},{},["qgk6"], null)
-//# sourceMappingURL=confirm.3b4f6408.js.map
+//# sourceMappingURL=confirm.cabe04cc.js.map
