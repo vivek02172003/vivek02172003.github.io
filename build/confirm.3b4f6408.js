@@ -129,7 +129,7 @@ window.addEventListener('load', function () {
   if (barber == "MATIAS PEREIRA") {
     test = 'barber2.23340dd5.png';
   } else if (barber == "SIDD DULAL") {
-    test = 'barber1.38a3f28a.png';
+    test = '../images/barber1.png';
   } else if (barber == "SID SUBRA") {
     test = 'barber3.d9d4c6ef.png';
   } else if (barber == "ABTIN NEGINI") {
@@ -150,4 +150,4 @@ window.addEventListener('load', function () {
   window.localStorage.setItem("barbertest", test);
 });
 },{}]},{},["qgk6"], null)
-//# sourceMappingURL=confirm.19e5b059.js.map
+//# sourceMappingURL=confirm.3b4f6408.js.map
